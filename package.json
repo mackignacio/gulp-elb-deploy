@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Mackignacio/gulp-ebdeploy.git"
+    "url": "git+https://github.com/Mackignacio/gulp-elb-deploy.git.git"
   },
   "keywords": [
     "gulp",
@@ -24,9 +24,9 @@
   "author": "Mark Anthony C. Ignacio",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Mackignacio/gulp-ebdeploy/issues"
+    "url": "https://github.com/Mackignacio/gulp-elb-deploy/issues"
   },
-  "homepage": "https://github.com/Mackignacio/gulp-ebdeploy#readme",
+  "homepage": "https://github.com/Mackignacio/gulp-elb-deploy#readme",
   "dependencies": {
     "aws-sdk": "^2.699.0",
     "chalk": "^4.1.0",
