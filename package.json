@@ -1,5 +1,5 @@
 {
-  "name": "gulp-ebdeploy",
+  "name": "gulp-elb-deploy",
   "version": "1.0.0",
   "description": "Simple Gulp plugin for deploying AWS Elastic Beanstalk",
   "main": "lib/index.js",

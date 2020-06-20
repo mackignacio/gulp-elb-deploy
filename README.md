@@ -1,4 +1,4 @@
-# gulp-ebdeploy
+# gulp-elb-deploy
 
 [![NPM Version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
@@ -17,14 +17,14 @@ A plugin devloped in [Typescript](https://www.typescriptlang.org/) that helps yo
 You can install this plugin by running this command on the terminal
 
 ```shell
-$ npm install gulp-elastic-beanstalk-deploy
+$ npm install gulp-elb-deploy
 ```
 
 ## Usage Example
 
 ```ts
 import gulp from "gulp",
-import  eb_deploy from "gulp-ebdeploy";
+import  eb_deploy from "gulp-elb-deploy";
 
 gulp.task("deploy", function () {
   return gulp
@@ -100,7 +100,7 @@ Version of AWS requests
 
 AWS application region. See [AWS service endpoints](https://docs.aws.amazon.com/general/latest/gr/rande.html).
 
-### applicationName 
+### applicationName
 
 - Type: `string`
 - Required
@@ -129,8 +129,8 @@ MIT
 
 ### [Mark Anthony Ignacio](https://github.com/Mackignacio)
 
-[npm-image]: https://img.shields.io/npm/v/gulp-ebdeploy.svg
-[npm-url]: https://npmjs.org/package/gulp-ebdeploy
+[npm-image]: https://img.shields.io/npm/v/gulp-elb-deploy.svg
+[npm-url]: https://npmjs.org/package/gulp-elb-deploy
 [travis-image]: https://img.shields.io/travis/Upplication/gulp-elasticbeanstalk-deploy/master.svg
 [travis-url]: https://travis-ci.org/Upplication/gulp-elasticbeanstalk-deploy
 [coveralls-image]: https://img.shields.io/coveralls/Upplication/gulp-elasticbeanstalk-deploy/master.svg
